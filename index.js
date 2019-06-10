@@ -11,6 +11,12 @@ bot.on('ready', () =>{
     console.log('Nature music is online.');
 })
 
+bot.on('ready', () => {
+    console.log('Nature bot is now online.');
+    bot.user.setActivity('Your Music (?cmds)', { type: 'LISTENING' }).catch(console.error);
+})
+
+
 bot.on('message', message=>{
 
         bot.user.setStatus('Online')
