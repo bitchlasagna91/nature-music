@@ -13,7 +13,7 @@ bot.on('ready', () =>{
 
 bot.on('ready', () => {
     console.log('Nature bot is now online.');
-    bot.user.setActivity('Your Music (?cmds)', { type: 'LISTENING' }).catch(console.error);
+    bot.user.setActivity('BOT IS NOT FUNCTIONAL, TEMP HOSTING ISSUE.', { type: 'PLAYING' }).catch(console.error);
 })
 
 
